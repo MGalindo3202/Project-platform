@@ -1,11 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//global variables
 global.coins = 0;
-global.points = 0; 
 
-
+hp = 5;
+iFrames = false;
 //how many pixels per frame we want the player to move
 xSpeed = 4
 
