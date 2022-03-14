@@ -60,5 +60,5 @@ if (place_meeting(x, y+ 1, oWall) and (jump))
 //die in a pit
 if (y>=room_height)
 {
-	PlayerDeath()();
+	PlayerDeath();
 }

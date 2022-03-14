@@ -11,6 +11,8 @@ if (y<= other.y -other.sprite_height*9)
 	}
 	else
 	{
-		//we die
-		room_restart();
+		//move back one pixel
+		x = x - xVector;
+		//we take damage
+	PlayerHurt();
 	}
