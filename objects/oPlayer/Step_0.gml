@@ -53,10 +53,6 @@ if (place_meeting(x, y+ 1, oWall) and (jump))
 	yVector = jumpForce;
 }
 
-{
-	instance_destroy(oCoin);
-}
-
 //die in a pit
 if (y>=room_height)
 {
