@@ -5,7 +5,7 @@ global.coins = 0;
 global.points = 0
 
 hp = 5;
-iFrames = false;
+isInvincible = false;
 //how many pixels per frame we want the player to move
 xSpeed = 4
 

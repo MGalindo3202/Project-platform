@@ -3,17 +3,17 @@
 function PlayerHurt()
 {
 	//check for no Iframes
-	if (!iFrames)
+	if (!oPlayer.isInvincible)
 	{
 		//start Iframes
-	iFrames = true;
+	oPlayer.isInvincible = true;
 	//set alarm to end iframes in 2 seconds
 	alarm_set(0, 2*room_speed)
 	//subtract one health
-	hp--;
+	oPlayer.hp--;
 	
 	//check to see if we are still alive
-	if (hp<1)
+	if (oPlayer.hp<1)
 	{
 		//if not alive, die
 		PlayerDeath();

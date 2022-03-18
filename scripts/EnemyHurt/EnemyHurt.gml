@@ -3,36 +3,31 @@
 function EnemyHurt()
 {
 		//check for no Iframes
-	if (!iFrames)
+	if (!other.isInvincible)
 	{
 		//start Iframes
-	iFrames = true;
-	//set alarm to end iframes in 2 seconds
-	alarm_set(0, 2*room_speed)
-	//subtract one health
-	hp--;
+	other.isInvincible = true;
+	
+	//loose one hp
+	other.hp -=1;
 	
 	//check to see if we are still alive
-	if (hp<1)
+	if(other.hp<1)
 	{
 		//if not alive, die
-		PlayerDeath();
+		EnemyDeath();
 	   }
-	}
+    }
 }
 
-
-function PlayerDeath(){
-	//in hud create global.lives = 3
-	//global.lives-=1;
-	//if global.lives >0
-room_restart();
-}
 
 
 
 function EnemyDeath()
 {
-	//create coin drop
+	if random_range(0,10)>4);
+	{
+	instance_create_layer(other.x,other.y,"Instance",oCoin);
+	}
 	instance_destroy(other);
 }
