@@ -1,6 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+enum states
+{
+	walking,
+	Jumping
+	
+}
+state = states.walking;
 global.coins = 0;
 global.points = 0
 
