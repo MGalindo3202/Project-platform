@@ -17,7 +17,7 @@
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"StatePlayerWalking","path":"scripts/StatePlayerWalking/StatePlayerWalking.yy",},"order":5,},
     {"id":{"name":"oTurret","path":"objects/oTurret/oTurret.yy",},"order":6,},
-    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
+    {"id":{"name":"sPlayerWalking","path":"sprites/sPlayerWalking/sPlayerWalking.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
