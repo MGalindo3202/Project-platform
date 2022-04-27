@@ -1,18 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(state == states.walking)
-{
-	StatePlayerWalking();
-}
-
-else if (state == states.Jumping)
-{
-	StatePlayerJumping():
-}
+script_execute(state_array[state])
 
 
 if (y>=room_height)
 {
 	PlayerDeath();
 }
+

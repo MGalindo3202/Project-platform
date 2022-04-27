@@ -4,6 +4,11 @@ function StatePlayerWalking(){
 //WHAT TO DO DURING THIS STATE
 CheckInputs();
 xDirection = right - left;
+if (xDirection != 0)
+image_xscale = xDirection
+
+
+
 xVector = xSpeed * xDirection;
 CheckCollisionsX()
 //otherwise do the legal move
@@ -27,6 +32,5 @@ y = y + yVector;
 
 //HOW TO EXIT THIS STATE
 	if (place_meeting(x, y+ 1, oWall) and (jump))
-	{
+	
 		state = states.Jumping;
-	}

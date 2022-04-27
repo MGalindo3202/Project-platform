@@ -7,6 +7,10 @@ enum states
 	Jumping
 	
 }
+
+state_array[states.walking]=PlayerStateWalking;
+state_array[states.Jumping] = PlayerStateJumping;
+
 state = states.walking;
 global.coins = 0;
 global.points = 0
