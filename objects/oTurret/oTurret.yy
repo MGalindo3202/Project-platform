@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sTurret",
+    "path": "sprites/sTurret/sTurret.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

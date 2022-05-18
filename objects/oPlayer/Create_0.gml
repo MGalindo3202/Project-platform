@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+canJump= true;
 
 enum states
 {
@@ -7,11 +8,23 @@ enum states
 	Jumping
 	
 }
+state = states.walking;
+satet = states.idle 
 
 state_array[states.walking]=PlayerStateWalking;
 state_array[states.Jumping] = PlayerStateJumping;
+states_array[states.idle] = PlayerStateIdle;
 
-state = states.walking;
+sprites_array[states.walking] = sPlayerWalking
+sprites_array[states.Jumping] = sPlayerJumping
+sprites_array[states.idle] = sPlayerIdle;
+
+
+
+
+
+
+
 global.coins = 0;
 global.points = 0
 
